@@ -1,0 +1,3 @@
+2Mat biec	UGF	NamCao	KimDong	51000	0
+Di chuc	asd	HoChiMinh	GiaoDuc	20000	0
+Tat Den	SHG2	NamCao	GiaoDuc	2000	0

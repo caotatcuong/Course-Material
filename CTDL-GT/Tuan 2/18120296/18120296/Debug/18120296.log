@@ -1,0 +1,3 @@
+﻿  ListStudent.cpp
+D:\Visual studio\CTDL\Tuan 2\18120296\18120296\ListStudent.cpp(98,10): warning C4553: '==': result of expression not used; did you intend '='?
+  18120296.vcxproj -> D:\Visual studio\CTDL\Tuan 2\18120296\Debug\18120296.exe

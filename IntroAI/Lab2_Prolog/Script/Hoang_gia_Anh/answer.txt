@@ -1,0 +1,134 @@
+1. Ai là chồng của Camilla Parker Bowles?
+?- husband(X,camillaParkerBowles).  
+X = princeCharles.
+
+2. Princess Anne có phải là vợ của Captain Mark Phillips không?
+?- wife(princessAnne, captainMarkPhillips).
+false.
+
+3. Ai là bố của Mia Grace Tindall?
+?- father(X,miaGraceTindall).
+X = mikeTindall.
+
+4. Ai là mẹ của Prince Charles?
+?- mother(X,princeCharles).
+X = queenElizabethII.
+
+5. Prince Harry có phải là con của Princess Diana không?
+?- child(princeHarry, princessDiana).
+true.
+
+6. Ai là con trai của Prince William
+?- son(X,princeWilliam).
+X = princeGeorge.
+
+7. Ai là con gái của Peter Phillips?
+?- daughter(X,peterPhillips).
+X = savannahPhillips ;
+X = islaPhillips.
+
+8. Ai ông bà của Mia Grace Tindall là ai?
+?- grandparent(X,miaGraceTindall).
+̀X = captainMarkPhillips ;
+X = princessAnne.
+
+9. Ai là bà ngoại của Zara Phillips?
+?- grandmother(X,zaraPhillips).
+X = queenElizabethII.
+
+10. Timothy Laurence có phải là ông của Isla Phillips không?
+?- grandfather(timothyLaurence,islaPhillips).
+false.
+
+11. Ai là cháu của Prince Phillip?
+?- grandchild(X,princePhillip).
+X = princeWilliam ;
+X = princeHarry ;
+X = peterPhillips ;
+X = zaraPhillips ;
+X = princessBeatrice ;
+X = princessEugenie ;
+X = jamesViscountSevern ;
+X = ladyLouiseMountbatten_Windsor.
+
+12. Prince George có phải là cháu trai của Princess Diana không?
+?- grandson(princeGeorge,princessDiana).
+true.
+
+13. Ai là cháu gái của Sarah Ferguson?
+?- granddaughter(X, sarahFerguson).
+false.
+
+14. Ai là anh chị em của Prince Charles?
+?- sibling(X,princeCharles).
+X = princessAnne ;
+X = princeAndrew ;
+X = princeEdward.
+
+15. Prince Andrew có phải là anh em trai của Prince Edward không?
+?- brother(princeAndrew,princeEdward).
+true.
+
+16. Ai là chị em gái của Princess Beatrice?
+?- sister(X,princessBeatrice).
+X = princessEugenie.
+
+17. Ai là cô/dì của Prince William?
+?- aunt(X, princeWilliam).
+X = princessAnne ;
+X = sophieRhys-jones.
+
+18. Peter Phillips có phải là chú của Princess Charlotte
+?- uncle(peterPhillips, princessCharlotte).
+false.
+
+19. Ai là cháu gái của Kate Middleton(cô/dì)?
+?- niece(X,kateMiddleton).
+false.
+
+20. Ai là cháu trai của PrincessAnne
+?- nephew(X,princessAnne).
+X = princeWilliam ;
+X = princeHarry ;
+X = jamesViscountSevern.
+
+21. Ai là anh chị em của James Viscount Severn?
+?- sibling(jamesViscountSevern,X).
+X = ladyLouiseMountbatten_Windsor.
+
+22. Ai là con của của Autumn Kelly?
+?- child(X,autumnKelly).
+X = savannahPhillips ;
+X = islaPhillips.
+
+23. Chồng của Kate Middleton?
+?- husband(X,kateMiddleton).
+X = princeWilliam.
+
+24. Prince Charles có phải là ông của Princess Charlotte không?
+?- grandparent(princeCharles,princessCharlotte).
+true.
+
+25. Zara Phillips có phải là cháu gái của Queen Elizabeth II không?
+?- granddaughter(zaraPhillips,queenElizabethII).
+true.
+
+26. Peter Phillips có phải là bố của Savannah Phillips không?
+?- father(mikeTindall,savannahPhillips).
+false.
+
+27. Ai là chị em gái của Lady Louise Mountbatten-Windsor?
+?- sister(X,ladyLouiseMountbatten_Windsor). 
+false.
+
+28. Zara Phillips có phải là cô/dì của Isla Phillips không?
+?- aunt(zaraPhillips,islaPhillips).
+true.
+
+29. Princess Charlotte có phải là cháu gái của Peter Phillips(chú) không?
+?- niece(princessCharlotte,peterPhillips).
+false.
+
+30. James Viscount Severn có phải là cháu trai của Prince Adrew(chú)
+?- nephew(jamesViscountSevern,princeAndrew).
+true.
